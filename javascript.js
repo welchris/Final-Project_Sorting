@@ -35,6 +35,7 @@ function sortItems() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    displayItems(items);
+    const sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+    displayItems(sortedItems);
     document.getElementById("sortOptions").addEventListener("change", sortItems);
 });
