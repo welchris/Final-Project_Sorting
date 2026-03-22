@@ -1,9 +1,9 @@
 const items = [
-    { name: "Solo Leveling", rating: 5.0 },
+    { name: "Attack on Titan", rating: 4.5 },
+    { name: "Demon Slayer: Kimetsu no Yaiba: Mugen Train", rating: 4.5 },
     { name: "Frieren: Beyond Journey's End", rating: 5.0 },
     { name: "Jujutsu Kaisen", rating: 2.0 },
-    { name: "Demon Slayer: Kimetsu no Yaiba: Mugen Train", rating: 4.5 },
-    { name: "Attack on Titan", rating: 4.5 },
+    { name: "Solo Leveling", rating: 5.0 },
     { name: "That Time I Got Reincarnated as a Slime", rating: 4.5 },
 ];
 
