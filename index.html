@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javascript.js" defer></script>
-     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Anime Search</title>
 </head>
 <body>
-   
- <select id="sortOptions">
-    <option value="name">Sort by Name A - Z</option>
-    <option value="nameReverse">Sort by Name Z - A</option>
-    <option value="rating">Sort by Highest Rating</option>
-    <option value="ratingReverse">Sort by Lowest Rating</option>
-</select>
 
-<ul id="itemList"></ul>
-   
+    <div class="title">
+    <h1>Anime Search</h1>
+    </div>
+    
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search for anime...">
+        <button id="searchButton"><i class="fas fa-search"></i> Search</button>
+    </div>
+
+    <div class="sortOptions">
+        <label for="sortSelect">Sort by:</label>
+        <select id="sortSelect">
+            <option value="titleAsc">Title A - Z</option>
+            <option value="titleDesc">Title Z - A</option>
+            <option value="ratingDesc">Rating 10 - 1</option>
+            <option value="ratingAsc">Rating 1 - 10</option>
+        </select>
+         <button id="clearButton"><i class="fas fa-times"></i>Clear</button>
+    </div>
+
+    <div id="itemList"></div>
 
 <footer>
-        <p>&copy; 2026 Oso Wells. All rights reserved.</p>
-        <p><a href="contact.html">Contact Us</a></p>
-    </footer>
+    <p>&copy; 2026 Oso Wells. All rights reserved.</p>
+    <p><a href="contact.html">Contact Us</a></p>
+</footer>
 
 </body>
 </html>
+
